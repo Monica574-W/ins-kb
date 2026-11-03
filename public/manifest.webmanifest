@@ -1,0 +1,18 @@
+{
+  "name": "保險知識助手",
+  "short_name": "保險助手",
+  "description": "保險顧問內部知識問答、佣金計算及計劃書小助手",
+  "lang": "zh-HK",
+  "start_url": "/#/home",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f2ef",
+  "theme_color": "#c8102e",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

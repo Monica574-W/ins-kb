@@ -1,0 +1,14 @@
+{
+  "name": "ins-kb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "保險知識助手：本地運行的中文 PWA（後端只用 Node 內置模組，無任何執行期依賴）",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node scripts/smoke.cjs",
+    "build:proto": "npm i --no-save esbuild@0.24.2 && node proto/build.cjs node_modules/.bin/esbuild proto/pages docs/index.html standalone"
+  }
+}

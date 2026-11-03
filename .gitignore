@@ -1,0 +1,9 @@
+# 執行期資料（含 API Key，切勿提交）
+data/config.json
+data/usage.json
+data/logs.jsonl
+data/*.tmp
+# 生成檔
+proto/assets.gen.js
+node_modules/
+.DS_Store

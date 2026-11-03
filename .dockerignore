@@ -1,0 +1,7 @@
+.git
+node_modules
+docs
+proto
+data/config.json
+data/usage.json
+data/logs.jsonl
