@@ -1,4 +1,4 @@
-# 保險知識助手（本地 PWA）
+# 卓越 Summit 寶典（本地 PWA）
 
 零依賴、零構建。只需 Node.js 18 或以上。
 
@@ -72,7 +72,7 @@ public/                    前端（原生 HTML/CSS/ES Module）
 先執行 `node server.cjs`，用 Chrome 打開 `http://localhost:8788`。每條打 ✔ 才算通過。
 
 ### A. 伺服器與靜態服務
-1. ☐ 終端機顯示「保險知識助手已啟動：http://localhost:8788」，`package.json` 沒有任何 dependencies。
+1. ☐ 終端機顯示「卓越 Summit 寶典已啟動：http://localhost:8788」，`package.json` 沒有任何 dependencies。
 2. ☐ `curl -I localhost:8788/files/sample_cooling_off.pdf` → `Content-Type: application/pdf`，`Content-Disposition: inline`。
 3. ☐ `curl -I localhost:8788/vendor/pdfjs/pdf.min.js` → `text/javascript`。
 4. ☐ `curl -I localhost:8788/vendor/pdfjs/cmaps/UniCNS-UCS2-H.bcmap` → 200。

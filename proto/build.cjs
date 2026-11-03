@@ -37,7 +37,7 @@ const css = fs.readFileSync(P('public/css/app.css'), 'utf8');
 const icon = dataUri(P('public/icons/icon.svg'), 'image/svg+xml');
 const idx = fs.readFileSync(P('public/index.html'), 'utf8');
 const bodyHtml = idx.slice(idx.indexOf('<body>') + 6, idx.indexOf('<script type="module"')).replace('/icons/icon.svg', icon);
-const html = `<title>保險知識助手</title>
+const html = `<title>卓越 Summit 寶典</title>
 <meta name="theme-color" content="#d0102f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

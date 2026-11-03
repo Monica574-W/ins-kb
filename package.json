@@ -2,7 +2,7 @@
   "name": "ins-kb",
   "version": "1.0.0",
   "private": true,
-  "description": "保險知識助手：本地運行的中文 PWA（後端只用 Node 內置模組，無任何執行期依賴）",
+  "description": "卓越 Summit 寶典：本地運行的中文 PWA（後端只用 Node 內置模組，無任何執行期依賴）",
   "engines": {
     "node": ">=18"
   },

@@ -59,10 +59,10 @@ let current = null, seq = 0;
 async function route() {
   const { name, params } = parseHash();
   const my = ++seq;
-  const t = TITLES[name] || { sub: '', title: '保險知識助手' };
+  const t = TITLES[name] || { sub: '', title: '卓越 Summit 寶典' };
   $('#top-sub').textContent = t.sub;
   $('#top-title').textContent = t.title;
-  document.title = `${t.title}｜保險知識助手`;
+  document.title = `${t.title}｜卓越 Summit 寶典`;
   // 「我的」底下的子頁（設定、手冊、計劃書）在手機也高亮「我的」
   const mobileOn = { settings: 'me', manual: 'me', plan: 'me' }[name] || name;
   document.querySelectorAll('#side-nav a').forEach(a => a.classList.toggle('on', a.dataset.r === name));

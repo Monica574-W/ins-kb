@@ -1,5 +1,5 @@
 /* Service Worker — 修改任何前端資源後，必須把 CACHE 版本號加一 */
-const CACHE = 'ikb-shell-v4';
+const CACHE = 'ikb-shell-v5';
 const FILES = 'ikb-files-v1'; // 已開啟過的原檔、cmaps（跨版本保留）
 const API_CACHE = 'ikb-api-v1';
 

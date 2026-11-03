@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* 保險知識助手 — 本地伺服器（只用 Node 內置模組，無任何 npm 依賴）
+/* 卓越 Summit 寶典 — 本地伺服器（只用 Node 內置模組，無任何 npm 依賴）
  * 啟動：node server.cjs   → http://localhost:8788
  */
 'use strict';
@@ -327,7 +327,7 @@ async function runAI(req, res, { kind, question, messages, sources, mode, sentCh
   });
 }
 
-const SYS_ASK = `你是香港保險公司內部的「保險知識助手」，對象是保險顧問。
+const SYS_ASK = `你是香港保險公司內部的「卓越 Summit 寶典」，對象是保險顧問。
 規則：
 1. 只可依據使用者訊息中的「參考資料」作答，不可使用外部知識、不可臆測或補充資料以外的數字、條款或日期。
 2. 若參考資料沒有足夠內容回答，請直接回覆：「現有資料中未有提及此問題，建議向相關部門查詢。」不要編造。
@@ -525,6 +525,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 if (require.main === module) {
-  server.listen(PORT, () => console.log(`保險知識助手已啟動：http://localhost:${PORT}`));
+  server.listen(PORT, () => console.log(`卓越 Summit 寶典已啟動：http://localhost:${PORT}`));
 }
 module.exports = { tokenize, retrieve, maskPII, normBase, server };
